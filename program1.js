@@ -29,9 +29,4 @@
 module.exports = { isValid };
 
 
-const { isValid } = require('./yourModuleFileName');
-console.log(isValid("()")); 
-console.log(isValid("()[]{}"));
-console.log(isValid("(]"));
-
 
